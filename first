@@ -33,3 +33,188 @@ plot(pressure)
 ### A bunch of other stuff
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lato';
+  font-weight: normal;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 34px;
+  font-family: 'Lato';
+  font-weight: normal;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: normal;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: normal;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+h5 {
+  font-size: 20px;
+  color: #005a9c;
+  font-family: 'Lato';
+  font-weight: normal;
+  margin-bottom: 0px;
+  text-align: center;
+}
+h6 {
+  color: #005a9c;
+  font-size: 14px;
+  font-family: 'Lato';
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+h7 {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Lato';
+  font-weight: normal;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+h8 {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Lato';
+  font-weight: bold;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+
+body {
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Lato';
+  font-weight: normal;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+
+/*header*/
+.header {
+display: inline-block;
+text-align: center;
+margin: 0 auto;
+width: 100%;
+padding-bottom: 20px;
+}
+
+.PIO {
+width: 25%;
+display: inline-block;
+float:left;
+padding-left: 30px;
+padding-right: 30px;
+border-right-width: thin;
+border-right-color: #005a9c;
+border-right-style: solid;
+}
+
+.logo {
+width: 50%;
+display: inline-block;
+float:center; 
+padding-top: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.AGENCYNAMES {
+width: 25%;
+display: inline-block;
+float:right;
+padding-left: 30px;
+padding-right: 30px;
+border-left-width: thin;
+border-left-color: #005a9c;
+border-left-style: solid;
+}
+
+/* press release footer */
+.document-footer {
+  break-inside: avoid;
+  color: #005a9c;
+  border-width: 1px 0;
+  border-style: solid;
+  width: 100%;
+  position: relative;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #005a9c;
+  color:#FFFFFF;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #FFFFFF;
+  background-color: #696969;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
